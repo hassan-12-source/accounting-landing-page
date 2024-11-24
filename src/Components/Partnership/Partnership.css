@@ -1,0 +1,15 @@
+.partnership-logo{
+    background-color: #39d196;
+    justify-content: center;
+    padding: 50px;
+}
+.logos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    justify-content: center;
+}
+.logos img{
+    width: 200px;
+    height: auto;
+}

@@ -1,0 +1,41 @@
+.hero-container{
+    display: flex;
+    gap: 150px;
+    justify-content: center;
+    padding: 100px;
+    width: 100%;
+    background-color: #2d3e50;
+}
+.hero-content{
+    margin-top: 80px;
+}
+.hero-content h1{
+    font-size: 50px;
+    color: whitesmoke;
+    font-weight: 500;
+}
+.hero-content p{
+    color: rgb(217, 217, 217);
+    margin-bottom: 15px;
+}
+.hero-content button{
+    background-color: #39d196;
+    padding: 8px 15px;
+    border: none;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+}
+@media (max-width: 768px) {
+    .hero-container{
+        display: block;
+        gap: 55px;
+        justify-content: center;
+        padding: 15px;
+        width: 100%;
+    }
+    .hero-content{
+        margin-top: 0;
+        margin-bottom: 45px;
+    }
+}

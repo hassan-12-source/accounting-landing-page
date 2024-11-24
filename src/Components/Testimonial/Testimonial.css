@@ -1,0 +1,36 @@
+.testimonial-slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    padding: 20px;
+    overflow: hidden;
+}
+.testimonial {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    width: 80%;
+    animation: slideIn 1s ease-in-out;
+    background-color: #2d3e50;
+}  
+.testimonial-image {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+} 
+.testimonial-comment{
+    color: white;
+}
+@media (max-width : 800px) {
+    .testimonial{
+        display: block;
+    }
+    .testimonial-comment{
+        width: 100%;
+        max-width: 100%;
+    }
+    .testimonial-slider{
+        height: 600px;
+    }
+}

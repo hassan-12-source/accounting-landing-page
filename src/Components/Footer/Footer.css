@@ -1,0 +1,30 @@
+.footer-container {
+    padding: 20px;
+    margin-top: 80px;
+}
+
+.contact-footer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+.contact-footer h1{
+    color: wheat;
+    font-size: 50px;
+}
+.elemnt-footer {
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+    width: 250px;
+}
+.elemnt-footer span {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: white;
+}
+.elemnt-footer h2{
+    color: whitesmoke;
+}
